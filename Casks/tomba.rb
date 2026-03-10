@@ -3,7 +3,7 @@ cask "tomba" do
   name "tomba"
   desc "CLI utility to search or verify lists of email addresses in seconds."
   homepage "https://tomba.io"
-  version "1.0.9"
+  version "1.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tomba" do
   on_macos do
     on_intel do
       url "https://github.com/tomba-io/tomba/releases/download/v#{version}/tomba_darwin_amd64.tar.gz"
-      sha256 "e24bc73d376cfdeb4ea8ebf8143d51de8962b94fba5e578e680fee735a8b789b"
+      sha256 "7f908ff04224457a476339741a4aeb5564fb80b34c743f417207d357ce287e33"
     end
     on_arm do
       url "https://github.com/tomba-io/tomba/releases/download/v#{version}/tomba_darwin_arm64.tar.gz"
-      sha256 "62a4263b7ff95a47c5cbdabbbf7073f1ab3883a6eed628ebf60751958d91b091"
+      sha256 "69fc820fb48448dddbd3ad79b1d759765f3a86b5436b7142ba3cff208dcebb1e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tomba-io/tomba/releases/download/v#{version}/tomba_linux_amd64.tar.gz"
-      sha256 "e9fa625ce7e5e38e12bf85e78f94594ac0c0fadc5107d13736e814ef0a0551a1"
+      sha256 "b00cd0bbb74dbb678ebd4945187336faf329b366a5e238dba5e4012b3663cbd1"
     end
     on_arm do
       url "https://github.com/tomba-io/tomba/releases/download/v#{version}/tomba_linux_arm64.tar.gz"
-      sha256 "e0327349aaec7eca536bf3ebc7de3429d6aa3ec08609b1f8222debe2f16fdf06"
+      sha256 "ea2b6530ab4c73d4450bf868a8f637e2789445bde14c68f1b16ee6e9096d27da"
     end
   end
 
